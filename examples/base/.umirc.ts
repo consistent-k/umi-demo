@@ -1,8 +1,11 @@
 import { defineConfig } from "@umijs/max";
 
 export default defineConfig({
-  base: '/base-web',
+  base: '/',
   publicPath: '/static-base-web/',
+  outputPath: 'dist/static-base-web/',
+  mfsu: {},
+  hash: true,
   routes: [
     { path: "/", component: "index" },
     { path: "/child/*",  microApp: 'app1', }

@@ -1,10 +1,12 @@
 import { defineConfig } from "@umijs/max";
 
 export default defineConfig({
-  base: '/child-web',
-  publicPath: '/static-child-web/',
+  mfsu: {},
+  hash: true,
+  base: '/child',
   routes: [
-    { path: "/", component: "index" }
+    { path: "/", component: "index" },
+    { path: "/detail", component: "detail" }
   ],
   npmClient: 'pnpm',
   qiankun: {

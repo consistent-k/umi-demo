@@ -10,7 +10,8 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "@umijs/max": "^4.2.13"
+    "@umijs/max": "^4.2.13",
+    "antd": "^5.18.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
